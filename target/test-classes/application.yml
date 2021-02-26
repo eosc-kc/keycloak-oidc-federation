@@ -1,0 +1,60 @@
+host: http://localhost:8080/
+entities:
+   intermediate1:
+       metadataPolicies: >- 
+           {
+              "scope": {
+                 "subset_of": ["openid","eduperson","address"],
+                 "default":  "openid"
+               },
+              "id_token_signed_response_alg": {
+                  "one_of": ["ES256","ES384"],
+                  "default": "ES256"
+               },
+               "contacts": {
+                   "add": "helpdesk@org.example.org"
+               }
+           }
+       authorityHints:
+           - intermediate11
+           - intermediate12
+   intermediate2:
+        authorityHints:
+            - intermediate21
+            - intermediate22
+            - trustanchor1
+   intermediate11:
+       authorityHints:
+           - intermediateX
+           - trustanchor1
+           - trustanchor2
+   intermediate12:
+       authorityHints:
+          - intermediateX
+          - intermediateZ
+   intermediateZ:
+       authorityHints:
+          - trustanchor2
+          - intermediateT
+   trustanchor1:
+       metadataPolicies: >- 
+           {
+               "scope": {
+                    "subset_of": [ "openid","eduperson","phone"],
+               "superset_of": ["openid"],
+               "default":  "openid"
+                },
+                "id_token_signed_response_alg": {
+                     "one_of": ["ES256", "ES384", "ES512"],
+                      "essential" : true
+                },
+                "contacts": {
+                     "add": "helpdesk@federation.example.org"
+                 },
+                 "application_type": {
+                      "value": "web"
+                 }
+           }
+   trustanchor2:
+        metadataPolicies: >- 
+           { }

@@ -1,0 +1,10 @@
+org/keycloak/protocol/oidc/federation/tests/scaffolding/commons/Toolbox.class
+org/keycloak/protocol/oidc/federation/tests/TestBase.class
+org/keycloak/protocol/oidc/federation/tests/TestPolicies.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/configuration/Configuration.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/configuration/Configuration$IntermediateEntity.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/configuration/YamlConfiguration.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/intermediates/EntityStatementsREST.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/exceptions/NotSupportedException.class
+org/keycloak/protocol/oidc/federation/tests/TestTrustChains.class
+org/keycloak/protocol/oidc/federation/tests/scaffolding/jaxrs/ApplicationBase.class

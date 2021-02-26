@@ -1,0 +1,2 @@
+org.keycloak.protocol.oidc.federation.op.rest.OIDCFederationResourceProviderFactory
+org.keycloak.protocol.oidc.federation.rp.OIDCRelyingPartyResourceProviderFactory

@@ -1,0 +1,9 @@
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/configuration/YamlConfiguration.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/exceptions/NotSupportedException.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/configuration/Configuration.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/commons/Toolbox.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/TestPolicies.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/TestTrustChains.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/jaxrs/ApplicationBase.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/scaffolding/intermediates/EntityStatementsREST.java
+/home/pc/IdeaProjects/keycloak-oidc-federation/keycloak-oidc-federation/src/test/java/org/keycloak/protocol/oidc/federation/tests/TestBase.java

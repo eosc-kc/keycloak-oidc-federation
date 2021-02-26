@@ -1,0 +1,30 @@
+{
+"metadata": {
+    "openid_relying_party": {
+      "application_type": "web",
+      "response_types": [
+        "code"
+      ],
+      "contacts": [
+        "ops@example.com"
+      ],
+      "token_endpoint_auth_method": "client_secret_basic",
+      "id_token_signed_response_alg": "ES384",
+      "redirect_uris": [
+        "https://127.0.0.1:4000/authz_cb/local"
+      ],
+      "jwks_uri": "https://127.0.0.1:4000/static/jwks.json",
+      "grant_types": [
+        "authorization_code"
+      ]
+    }
+  },
+
+  "authority_hints": [
+    "http://localhost:8080/intermediate2"
+  ],
+  "iss": "https://127.0.0.1:4000/local",
+  "sub": "https://127.0.0.1:4000/local",
+  "iat": 1604657216,
+  "exp": 1920190016
+}

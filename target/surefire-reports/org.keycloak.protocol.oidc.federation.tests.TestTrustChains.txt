@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.keycloak.protocol.oidc.federation.tests.TestTrustChains
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.512 s - in org.keycloak.protocol.oidc.federation.tests.TestTrustChains
